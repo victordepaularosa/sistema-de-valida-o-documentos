@@ -8,7 +8,7 @@ class Doc_Cnpj:
             self.cnpj = documento
 
         else:
-            raise ValueError('CNPJ Inválido!!!!')
+            raise ValueError('CNPJ Inválido!!!!!!!')
 
     def validar(self, documento):
         validador = CNPJ()
